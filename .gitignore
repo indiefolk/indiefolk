@@ -1,2 +1,5 @@
 labs
+labs/*
 .idea
+.idea/*
+.DS_Store

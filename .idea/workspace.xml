@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa9729e6-708f-4beb-82de-5891c61668c9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="indiefolk.iws" />
@@ -52,7 +53,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="5" selection-start="10" selection-end="10" vertical-scroll-proportion="0.011848342">
+            <state line="3" column="7" selection-start="25" selection-end="25" vertical-scroll-proportion="0.035545025">
               <folding />
             </state>
           </provider>
@@ -382,7 +383,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="5" selection-start="10" selection-end="10" vertical-scroll-proportion="0.011848342">
+        <state line="3" column="7" selection-start="25" selection-end="25" vertical-scroll-proportion="0.035545025">
           <folding />
         </state>
       </provider>
