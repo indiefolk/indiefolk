@@ -1,0 +1,3 @@
+[submodule "labs/vinyl"]
+	path = labs/vinyl
+	url = https://github.com/indiefolk/vinyl.git
