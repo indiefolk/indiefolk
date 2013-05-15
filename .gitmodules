@@ -16,3 +16,6 @@
 [submodule "labs/mainframe"]
 	path = labs/mainframe
 	url = https://github.com/indiefolk/mainframe.git
+[submodule "labs/posters"]
+	path = labs/posters
+	url = git@github.com:indiefolk/posters.git
