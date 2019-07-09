@@ -1,0 +1,172 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Playfair+Display+SC|Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  font-size: 16px;
+  color: #333;
+}
+
+section {
+  padding: calc(100vh * 0.2) 80px;
+  text-align: center;
+  position: relative;
+  background-color: #fcfcfc;
+
+  &:first-child:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 60px;
+    width: calc(100vw - 160px);
+    height: 1px;
+    background-color: #333;
+  }
+
+  /* background-color: #f3eddf;
+  background-color: #e7f3cb; */
+  /* box-shadow: inset 0px 0px 200px rgba(0, 0, 0, 0.1); */
+
+  &.section--left {
+    text-align: left;
+  }
+
+  &.section--right {
+    text-align: right;
+  }
+}
+
+.palette1 {
+  background-color: #cf92b2;
+}
+
+.palette2 {
+  background-color: #79885e;
+  color: #fff;
+}
+
+.palette3 {
+  background-color: #f3e4a9;
+  background-color: #fcfcfc;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  /* 60px */
+  /* text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.5); */
+  /* 112px */
+  /* text-shadow: 0 -4px 0 rgba(0, 0, 0, 0.2), 0 4px 0 rgba(255, 255, 255, 0.5); */
+  font-size: 7em;
+  letter-spacing: -4.2px;
+  /* color: #333;
+  color: #f3ead9;
+  color: #cfdab7; */
+}
+
+h2 {
+  font-size: 3em;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+
+  &.subheading {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1em;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  background: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff),
+    linear-gradient(#ff3530, #ff3530);
+  background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff,
+    0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff,
+    -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff;
+  background-position: 0 95%, 100% 95%, 0 95%;
+
+  &:hover {
+    color: #ff3530;
+    background: none;
+  }
+}
+
+.w {
+  font-size: 1.2em;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: calc(100vh * 0.1) 40px;
+  text-align: center;
+
+  & p {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 0.8em;
+  }
+}
+
+/* Case studies */
+.case-studies {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+  & li {
+    width: 50%;
+    position: relative;
+  }
+
+  & img {
+    position: relative;
+  }
+}
+
+.case-study {
+  color: #fff;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+}
+
+.case-study-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+  & h3 {
+    font-size: 2em;
+  }
+}
